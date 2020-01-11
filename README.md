@@ -56,4 +56,12 @@ After that, you can run client_1 tests if you do not close the core iex, just go
 iex --sname client_1 -S mix test
 ```
 
-You can also run the test without the cluster, note that in this case, some tests (that require the cluster to be alive) will be excluded, for that you can simply run `mix test` normally inside each project.
+You can also run the test without the cluster, note that in this case, some tests (that require the cluster to be alive) will be excluded, for that you can simply run `mix test** normally inside each project.
+
+**References**
+
+Much of these ideas was answers for a question I created at elixir reddit, you can see it in this [link](https://www.reddit.com/r/elixir/comments/emtxxq/how_to_organize_multiple_umbrella_projects_that/).
+
+Also some other useful resources:
+[Designing scalable application with Elixir: from umbrella project to distributed system](https://medium.com/matic-insurance/designing-scalable-application-with-elixir-from-umbrella-project-to-distributed-system-42f28c7e62f1)
+[Conditionally Excluding Tests with Tags](https://elixirschool.com/en/lessons/advanced/otp-distribution/#conditionally-excluding-tests-with-tags)
