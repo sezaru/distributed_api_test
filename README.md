@@ -63,5 +63,7 @@ You can also run the test without the cluster, note that in this case, some test
 Much of these ideas was answers for a question I created at elixir reddit, you can see it in this [link](https://www.reddit.com/r/elixir/comments/emtxxq/how_to_organize_multiple_umbrella_projects_that/).
 
 Also some other useful resources:
+
 [Designing scalable application with Elixir: from umbrella project to distributed system](https://medium.com/matic-insurance/designing-scalable-application-with-elixir-from-umbrella-project-to-distributed-system-42f28c7e62f1)
+
 [Conditionally Excluding Tests with Tags](https://elixirschool.com/en/lessons/advanced/otp-distribution/#conditionally-excluding-tests-with-tags)
