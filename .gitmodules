@@ -1,0 +1,9 @@
+[submodule "core"]
+	path = core
+	url = https://github.com/sezaru/distributed_api_test_core.git
+[submodule "common"]
+	path = common
+	url = https://github.com/sezaru/distributed_api_test_common.git
+[submodule "client_1"]
+	path = client_1
+	url = https://github.com/sezaru/distributed_api_test_client_1.git
